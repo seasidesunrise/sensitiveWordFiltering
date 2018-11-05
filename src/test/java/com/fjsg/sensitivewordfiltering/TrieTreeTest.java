@@ -1,11 +1,11 @@
-package com.fjsg.sensitiveWordFiltering;
-
-import org.junit.Test;
+package com.fjsg.sensitivewordfiltering;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import org.junit.Test;
 
 public class TrieTreeTest {
 

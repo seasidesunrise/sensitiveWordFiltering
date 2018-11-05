@@ -1,4 +1,4 @@
-package com.fjsg.sensitiveWordFiltering;
+package com.fjsg.sensitivewordfiltering;
 
 import static org.junit.Assert.assertTrue;
 

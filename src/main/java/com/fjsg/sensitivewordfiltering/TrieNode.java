@@ -1,4 +1,4 @@
-package com.fjsg.sensitiveWordFiltering;
+package com.fjsg.sensitivewordfiltering;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ public class TrieNode {
     /**
      * 是否最后一个字符
      */
-    private boolean isEnd;
+    private boolean isLeaf;
 
     /**
      * 子节点
@@ -38,18 +38,18 @@ public class TrieNode {
     /**
      * 设置是否最后一个字符
      *
-     * @param end
+     * @param leaf
      */
-    public void setEnd(boolean end) {
-        isEnd = end;
+    public void setLeaf(boolean leaf) {
+        isLeaf = leaf;
     }
 
     /**
      *
      * @return
      */
-    public boolean isEnd() {
-        return isEnd;
+    public boolean isLeaf() {
+        return isLeaf;
     }
 
 }
