@@ -36,7 +36,7 @@ public class TrieTree {
      * 判断是否包含屏蔽关键词
      *
      * @param text
-     * @return
+     * @return true false
      */
     public boolean check(String text) {
         if (StringUtils.isEmpty(text)) {
